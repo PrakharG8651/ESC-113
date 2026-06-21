@@ -61,3 +61,4 @@ $$u = -dt \frac{\partial P}{\partial x}, \quad v = -dt \frac{\partial P}{\partia
 | Rajinder Kumar | [@raman9728152450](https://github.com/raman9728152450) |
 | Abhishek Parth | [@Abhishek-Parth](https://github.com/Abhishek-Parth) |
 | Ankit Kumar Saini | [@ankitkumar971](https://github.com/ankitkumar971) |
+| Rahul Sehra | [@Rahul06-Dev](https://github.com/Rahul06-Dev) |
