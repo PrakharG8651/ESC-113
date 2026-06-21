@@ -32,8 +32,8 @@ $$u = -dt \frac{\partial P}{\partial x}, \quad v = -dt \frac{\partial P}{\partia
 
 ## Features
 
-* **Dual Numerical Engines:** Switch instantly between a **Direct Solver** (LU Decomposition) and an **Iterative Solver** (Gauss-Seidel) to observe trade-offs in memory vs. convergence speed[cite: 3, 12].
-* **Asymptotic Sparse Assembly:** The coefficient matrix $A$ is pre-allocated as a MATLAB `sparse()` data type[cite: 21]. This allows the app to solve thousands of simultaneous equations instantly without triggering MATLAB memory limits.
+* **Dual Numerical Engines:** Switch instantly between a **Direct Solver** (LU Decomposition) and an **Iterative Solver** (Gauss-Seidel) to observe trade-offs in memory vs. convergence speed.
+* **Asymptotic Sparse Assembly:** The coefficient matrix $A$ is pre-allocated as a MATLAB `sparse()` data type. This allows the app to solve thousands of simultaneous equations instantly without triggering MATLAB memory limits.
 * **Strictly Bound Dirichlet Walls:** Outer boundary nodes are locked to $P = 0$, guaranteeing a well-posed matrix that cannot become singular.
 * **Zero Dependencies:** Written entirely in Vanilla MATLAB. Requires no extra Toolboxes (e.g., no PDE Toolbox or CFD Toolbox needed).
 * **Framework-Free Architecture:** Built as a pure MATLAB `handle` class rather than a binary `.mlapp` file, making it completely version-control friendly for Git.
