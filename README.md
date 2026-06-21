@@ -36,7 +36,6 @@ $$u = -dt \frac{\partial P}{\partial x}, \quad v = -dt \frac{\partial P}{\partia
 * **Asymptotic Sparse Assembly:** The coefficient matrix $A$ is pre-allocated as a MATLAB `sparse()` data type. This allows the app to solve thousands of simultaneous equations instantly without triggering MATLAB memory limits.
 * **Strictly Bound Dirichlet Walls:** Outer boundary nodes are locked to $P = 0$, guaranteeing a well-posed matrix that cannot become singular.
 * **Zero Dependencies:** Written entirely in Vanilla MATLAB. Requires no extra Toolboxes (e.g., no PDE Toolbox or CFD Toolbox needed).
-* **Framework-Free Architecture:** Built as a pure MATLAB `handle` class rather than a binary `.mlapp` file, making it completely version-control friendly for Git.
 
 ---
 
@@ -59,4 +58,5 @@ $$u = -dt \frac{\partial P}{\partial x}, \quad v = -dt \frac{\partial P}{\partia
 | Prince Meena | [@xenoz27](https://github.com/xenoz27) |
 | Aman Agrawal | [@Amanag185](https://github.com/Amanag185) |
 | Aadi Chhajed | [@Aadi-Chhajed](https://github.com/Aadi-Chhajed) |
-| Raman Majoka | [@raman9728152450](https://github.com/raman9728152450) |
+| Rajinder Majoka | [@raman9728152450](https://github.com/raman9728152450) |
+| Abhishek Parth | [@Abhishek-Parth](https://github.com/Abhishek-Parth) |
