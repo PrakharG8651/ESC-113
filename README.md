@@ -58,5 +58,5 @@ $$u = -dt \frac{\partial P}{\partial x}, \quad v = -dt \frac{\partial P}{\partia
 | Prince Meena | [@xenoz27](https://github.com/xenoz27) |
 | Aman Agrawal | [@Amanag185](https://github.com/Amanag185) |
 | Aadi Chhajed | [@Aadi-Chhajed](https://github.com/Aadi-Chhajed) |
-| Rajinder Majoka | [@raman9728152450](https://github.com/raman9728152450) |
+| Rajinder Kumar | [@raman9728152450](https://github.com/raman9728152450) |
 | Abhishek Parth | [@Abhishek-Parth](https://github.com/Abhishek-Parth) |
